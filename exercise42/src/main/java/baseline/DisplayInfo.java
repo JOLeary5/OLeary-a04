@@ -1,14 +1,27 @@
+/*
+ * UCF COP3330 Fall 2021 Assignment 4 Solutions
+ * Copyright 2021 Jonathan O'Leary
+ */
+
 package baseline;
 
+import java.util.ArrayList;
+import java.util.*;
+
 public class DisplayInfo {
-    public  static void displayFileInfo(){
+    public  static void displayFileInfo(ArrayList<String> strings){
 
-        //take string 1
-        //take string 2
-        //take string 3
+        String num;
 
-        //printf( " Last ",  " First ", "Salary")
-        // printf(" StringArray[1], stringArray2, stringArray3")
+        System.out.printf("%-17s%-17s%-17s\n", "Last", "First", "Salary");
+        System.out.println("----------------------------------------");
 
+        for ( int i = 0; i<strings.size() ; i++){
+
+            num = strings.get(i);
+            String[] temp = num.split(",");
+            System.out.printf("%-17s%-17s%-17s\n", temp[0], temp[1], temp[2]);
+
+        }
     }
 }

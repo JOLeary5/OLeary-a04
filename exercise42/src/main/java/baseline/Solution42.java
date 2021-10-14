@@ -3,30 +3,43 @@
  * Copyright 2021 Jonathan O'Leary
  */
 
-
 package baseline;
 
-public class Solution42 {
+import java.util.*;
+import java.io.*;
 
-        //LOAD FILE FUNCTION(){
-        //    - TRY
-        //          -to establish the file
-        //    - establish the scanner
 
-        //    - WHILE (FILE.NEXT.LN)
-        //          - scan in the contents of that line
-        //    - CATCH EXCEPTION
-        //          - ""File not Found""
 
-    public static void main(String[] args) {
+public class Solution42
+{
 
-        // LOAD FILE FUNCTION()
+    // LoadStringArray();
+    public static void LoadStringArray(Scanner input, ArrayList<String> namesList)
+    {
+        while (input.hasNextLine())
+        {
+            // - load contents of file in an array
+            namesList.add(input.nextLine());
+        }
+    }
 
-        // DisplayInfoClass (StringArray1, StringArray2, StringArray3)
+
+
+
+    public static void main(String[] args) throws FileNotFoundException {
+
+        // - load in file
+
+        Scanner inputFile = new Scanner(new File("Data/exercise42_input.txt"));
+        ArrayList<String> namesList = new ArrayList<String>();
+
+        LoadStringArray(inputFile, namesList);
+
+        DisplayInfo DisplayInfoObject = new DisplayInfo();
+
+        DisplayInfo.displayFileInfo(namesList);
+
+
 
     }
 }
-
-
-
-
