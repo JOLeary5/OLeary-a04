@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Solution41--|> displayArray
+
+class Solution41{
+AlphabetizeArray()
+LoadStringArray()
+size()
+}
+
+class displayArray{
+    displayArray()
+}
+
+@enduml

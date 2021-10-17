@@ -24,23 +24,6 @@ public class Solution41 {
         Collections.sort(namesList);
     }
 
-    public static void displayArray(ArrayList<String> namesList) throws IOException
-    {
-        FileWriter output = new FileWriter("Data/exercise41_output.txt");
-
-        output.write("Total of " + namesList.size() + " names\n");
-
-        output.write("--------------------\n");
-
-        for(String i: namesList)
-        {
-            output.write(i+"\n");
-        }
-
-        output.close();
-    }
-
-
     public static void main(String[] args) throws FileNotFoundException {
 
 
@@ -57,7 +40,7 @@ public class Solution41 {
         // DisplayArray();
         try
         {
-            displayArray(namesList);
+            displayArray.displayArrayList(namesList);
         }
 
         catch(Exception e)
@@ -65,11 +48,6 @@ public class Solution41 {
             System.out.println(e);
         }
     }
-
-
     //  **** USE J-UNIT 5 TO UNIT TEST *****
-    //  **** INCORPORATE PLANT UML CLASS DIAGRAMS ******
-
 
 }
-
