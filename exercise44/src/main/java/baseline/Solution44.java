@@ -6,25 +6,33 @@
 package baseline;
 
 import java.io.*;
-import java.util.*;
 import org.json.simple.*;
 import org.json.simple.parser.*;
 
 public class Solution44
 {
-    // FUNCTION READ JSON FILE
-    // {
-    //        -  Create new JSON Praser object
-    //
-    //        -  Store JSON Products into an array
-    //
-    //}
-
-    public static void main(String[] args)
+    public static JSONArray LoadProductList()
     {
+        JSONArray products = null;
+        JSONParser parser = new JSONParser();
+        try {
+            Object obj = parser.parse(new FileReader("Data/exercise44_input.json"));
+            JSONObject jsonObject = (JSONObject)obj;
+            products = (JSONArray) jsonObject.get("products");
+
+
+        } catch (ParseException | IOException e) {
+            e.printStackTrace();
+        }
+        return products;
+    }
+
+    public static void main(String[] args) throws IOException {
 
         //FUNCTION READ-JSON FILE
+        JSONArray productList = LoadProductList();
 
-        //CLASS Product Search
+        ProductSearch.JSONProductSearch(productList);
+
     }
 }
