@@ -1,0 +1,13 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(ºø–Ü
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ê¼ï†üÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÒÔéûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(û¥²›
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ë÷‹Ûÿÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(Á‚¦Ð
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(Üî°ß
+V	java:S125-"<This block of commented-out lines of code should be removed.(ŸÞÈ¯ùÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(Ê¿ÿÉ
+X	java:S125C"<This block of commented-out lines of code should be removed.(öôë8‰¯¬ƒÉ/

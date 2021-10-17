@@ -27,7 +27,7 @@ public class Solution44
         return products;
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
 
         //FUNCTION READ-JSON FILE
         JSONArray productList = LoadProductList();

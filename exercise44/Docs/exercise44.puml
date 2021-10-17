@@ -1,11 +1,17 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 
-autonumber
+class Solution44{
+Loads JSONArray at and sends it
+to the product Search
+Function LoadProductList();
+}
 
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
+class ProductSearch{
+allows user to search for a
+product using a JSONArray
+FUNCTION: JSONproductSearch()
+}
 
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
+Solution44--|>ProductSearch
 @enduml
