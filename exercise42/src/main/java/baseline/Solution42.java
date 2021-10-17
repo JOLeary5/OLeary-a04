@@ -23,9 +23,6 @@ public class Solution42
         }
     }
 
-
-
-
     public static void main(String[] args) throws FileNotFoundException {
 
         // - load in file

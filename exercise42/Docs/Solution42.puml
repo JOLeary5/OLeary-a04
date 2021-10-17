@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class Solution42 {
+    has a function to load in the
+    contents of an array to a string
+    FUNCTION: LoadArrayString();
+    main();
+}
+
+class DisplayInfo {
+    FUNCTION: displayFileInfo()
+    Takes the info from the function and displays it
+}
+
+Solution42--|>DisplayInfo
+@enduml
