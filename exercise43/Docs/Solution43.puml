@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Solution43 {
+FUNCTION: LoadSite()
+FUNCTION: LoadAuthor()
+}
+
+class CreateHTML{
+-prompts user for file creation
+- creates HTML info
+- Stores HTML info
+}
+
+Solution43 --|> CreateHTML
+
+@enduml
