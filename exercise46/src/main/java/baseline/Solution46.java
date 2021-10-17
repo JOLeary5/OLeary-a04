@@ -1,28 +1,41 @@
 package baseline;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Scanner;
+import java.util.ArrayList;
+
 public class Solution46 {
 
-    // FUNCTION CREATE ARRAYLISTS{
+    public static void main(String[] args) throws IOException {
 
-    // - initialize scanner object
+        FileInputStream fileIN = new FileInputStream("Data/exercise46_input.txt");
 
-    //  - initialize arraylist for words
-    //  - initialize arraylist for Count
+        Scanner scanR = new Scanner(fileIN);
 
-    // - While (HasNext)
-    //       - String nextword = scanner.next
+        ArrayList<String> words = new ArrayList<String>();
+        ArrayList<Integer> count = new ArrayList<Integer>();
 
-    //       -  if contains word
-    //              - wordcount ++
+        while (scanR.hasNext())
+        {
+            String nextWord = scanR.next();
 
-    //       - else
-    //              - add word
-    //  - close files
+            if(words.contains(nextWord))
+            {
+                int index = words.indexOf(nextWord);
+                count.set(index, count.get(index)+ 1);
+            }
+            else
+            {
+                words.add(nextWord);
+                count.add(1);
+            }
+        }
 
-    public static void main(String[] args) {
+        scanR.close();
+        fileIN.close();
 
-        // FUNCTION CREATE ARRAYLIST
-        // CLASS DISPLAY ARRAY
-
+        DisplayArrayList DisplayArrayObject = new DisplayArrayList();
+        DisplayArrayObject.DisplayArray(words,count);
     }
 }

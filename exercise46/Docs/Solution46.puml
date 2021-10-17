@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Solution46{
+LoadsArrayLists{words}
+LoadsArrayLists{count}
+}
+
+class DisplayArrays{
+    DisplayArrayList
+
+}
+
+Solution46 --|> DisplayArrays
+@enduml
