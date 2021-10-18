@@ -1,0 +1,14 @@
+
+P
+java:S1118	":Add a private constructor to hide the implicit public one.(Ìûúì
+c	java:S100
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê„“Û
+N	java:S106"9Replace this use of System.out or System.err by a logger.(±ß©š
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ýÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ8þææ†É/
+‚
+java:S1319
+"eThe type of "words" should be an interface such as "List" rather than the implementation "ArrayList".(Ê„“Û8Ð™ð†É/
+‚
+java:S1319
+"eThe type of "count" should be an interface such as "List" rather than the implementation "ArrayList".(Ê„“Û8Ð™ð†É/

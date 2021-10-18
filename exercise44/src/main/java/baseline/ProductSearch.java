@@ -51,29 +51,5 @@ public class ProductSearch {
         {
             e.printStackTrace();
         }
-
-
-
-        // Prompt and take user product Name
-
-
-
-        // While (Iterator.hasNext()) {                             (GOOGLED THIS SOLUTION)
-        //
-        //       - Use ITERATOR TO SEARCH THE JSON PRODUCT LIST
-        //       - STRING name = json.get(NAME)
-        //       - While( itereator has next)
-        //                  - compare value with given input
-        //                       - if (input to lowerCase equals (snametolower)
-        //                             - sout NAME
-        //                             - sout price
-        //                             - get quantity
-        //                             - flag = 1;
-        //       if (flag ===0){
-        //              sout("PRODCUT NOT FOUND")
-        //        }
-        //
-
-
     }
 }

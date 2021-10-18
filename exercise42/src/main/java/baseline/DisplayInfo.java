@@ -6,10 +6,9 @@
 package baseline;
 
 import java.util.ArrayList;
-import java.util.*;
 
 public class DisplayInfo {
-    public  static void displayFileInfo(ArrayList<String> strings){
+    public static void displayFileInfo(ArrayList<String> strings){
 
         String num;
 

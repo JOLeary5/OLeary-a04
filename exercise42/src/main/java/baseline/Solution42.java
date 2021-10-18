@@ -2,7 +2,6 @@
  * UCF COP3330 Fall 2021 Assignment 4 Solutions
  * Copyright 2021 Jonathan O'Leary
  */
-
 package baseline;
 
 import java.util.*;
@@ -26,7 +25,6 @@ public class Solution42
     public static void main(String[] args) throws FileNotFoundException {
 
         // - load in file
-
         Scanner inputFile = new Scanner(new File("Data/exercise42_input.txt"));
         ArrayList<String> namesList = new ArrayList<String>();
 

@@ -2,12 +2,13 @@
 'https://plantuml.com/class-diagram
 
 class Solution46{
-LoadsArrayLists{words}
-LoadsArrayLists{count}
+reads the words and the number of times
+main();
+
 }
 
 class DisplayArrays{
-    DisplayArrayList
+    Reads the Arra
 
 }
 

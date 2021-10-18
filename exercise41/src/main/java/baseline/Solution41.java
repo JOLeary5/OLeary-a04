@@ -9,7 +9,6 @@ import java.util.*;
 
 public class Solution41 {
 
-    // LoadStringArray();
     public static void LoadStringArray(Scanner input, ArrayList<String> namesList) {
 
         while (input.hasNextLine()) {
@@ -20,24 +19,19 @@ public class Solution41 {
     }
 
     public static void AlphabetizeArray(ArrayList<String> namesList) {
-        // - take the Array given and alphabetize it;
         Collections.sort(namesList);
     }
 
     public static void main(String[] args) throws FileNotFoundException {
 
 
-        // - load in file
         Scanner inputFile = new Scanner(new File("Data/exercise41_input.txt"));
         ArrayList<String> namesList = new ArrayList<String>();
 
-        // LoadStringArray();
         LoadStringArray(inputFile, namesList);
 
-        // AlphabetizeArray();
         AlphabetizeArray(namesList);
 
-        // DisplayArray();
         try
         {
             displayArray.displayArrayList(namesList);
@@ -49,5 +43,4 @@ public class Solution41 {
         }
     }
     //  **** USE J-UNIT 5 TO UNIT TEST *****
-
 }

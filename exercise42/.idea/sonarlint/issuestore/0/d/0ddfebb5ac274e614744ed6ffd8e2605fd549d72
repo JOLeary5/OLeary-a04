@@ -1,0 +1,13 @@
+
+P
+java:S1118
+":Add a private constructor to hide the implicit public one.(¸Š‡é
+l
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¶•Ü½øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶•Ü½øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(íê­…
+g
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(–ê¯˜
+N	java:S106"9Replace this use of System.out or System.err by a logger.(–ê¯˜
+‚
+java:S1319"gThe type of "strings" should be an interface such as "List" rather than the implementation "ArrayList".(ŽèÇšýÿÿÿÿ

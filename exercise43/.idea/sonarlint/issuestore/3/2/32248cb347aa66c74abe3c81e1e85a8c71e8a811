@@ -1,0 +1,23 @@
+
+U
+java:S1118
+":Add a private constructor to hide the implicit public one.(û£„­ıÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Èí¥âüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×³ş¤
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ËŞ‹íüÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ç¢şÖ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(†‰‹‹
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(Ôù­—
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(ä¨ÎÏ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(Êã·
+M	java:S106A"9Replace this use of System.out or System.err by a logger.(½¬'
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(›ÕË
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(„ğêĞûÿÿÿÿ
+_
+java:S1192 "IDefine a constant instead of duplicating this literal "Created " 4 times.(ç¢şÖ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Ÿì
+g	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(û£„­ıÿÿÿÿ
+c
+java:S2095#"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(¤¦¦ªúÿÿÿÿ
